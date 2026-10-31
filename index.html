@@ -33,6 +33,28 @@ nav a:hover,nav a.on{color:var(--accent)}
 [data-theme=dark] .btn.alt{background:transparent;border-color:var(--line);color:var(--ink)}
 [data-theme=dark] .btn.alt:hover{color:var(--accent);border-color:var(--accent)}
 [data-theme=dark] .portrait-inner{background:linear-gradient(145deg,#343434,#252525 68%,#3a3a3a);color:#e5e5e5}
+
+/* Soft monochrome typography revision: lighter weights, gentler charcoal, red details. */
+:root{--ink:#383838;--muted:#696969;--line:#e8e8e8}
+[data-theme=dark]{--ink:#eeeeee;--muted:#bcbcbc}
+.brand,h1,h2,h3,.pub-heading{font-weight:400}
+.brand{font-size:20px;letter-spacing:-.5px}
+h1{letter-spacing:-1.2px}
+.role,.intro strong,.job strong{font-weight:500}
+nav a,.social a{font-weight:500}
+.eyebrow{font-weight:600}
+.year{font-weight:600}
+.pub h3,.interest h3,.card h3{font-weight:500}
+.pub-heading{font-weight:400;border-bottom-color:var(--line)}
+.pub a,.paper-links a,.field{font-weight:500}
+.btn{background:transparent;border-color:var(--accent);color:var(--accent);font-weight:500}
+.btn:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.alt{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn.alt:hover{background:transparent;color:var(--accent);border-color:var(--accent)}
+[data-theme=dark] .btn{background:transparent;border-color:var(--accent);color:var(--accent)}
+[data-theme=dark] .btn:hover{background:var(--accent);color:#151515;border-color:var(--accent)}
+[data-theme=dark] .btn.alt{color:var(--ink);border-color:var(--line)}
+[data-theme=dark] .btn.alt:hover{background:transparent;color:var(--accent);border-color:var(--accent)}
 </style></head><body>
 <header><div class="wrap bar"><a href="#home" class="brand" data-page="home">Subrata <span>Majumdar.</span></a><button id="menu" aria-label="Toggle navigation">☰ Menu</button><nav id="nav"><a href="#home" data-page="home">Home</a><a href="#research" data-page="research">Research</a><a href="#publications" data-page="publications">Publications</a><a href="#academic" data-page="academic">Academic CV</a><a href="#contact" data-page="contact">Contact</a><button id="mode" aria-label="Toggle dark mode">☾</button></nav></div></header>
 <main class="wrap">
