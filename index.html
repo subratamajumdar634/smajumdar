@@ -106,6 +106,9 @@ nav a,.social a{font-weight:500}
 
 /* Let the three introductory Research paragraphs span the available content width. */
 #research > p.intro{max-width:none}
+
+/* Owner-only read-only counter; matches the restrained public badge styling. */
+#owner-traffic-total:not([hidden]){display:inline-flex;align-items:center;min-height:20px;padding:1px 8px;border:1px solid var(--line);border-radius:3px;color:var(--ink);font-size:12px;line-height:1.5;background:var(--soft)}
 </style></head><body>
 <header><div class="wrap bar"><a href="#home" class="brand" data-page="home">Subrata <span>Majumdar.</span></a><button id="menu" aria-label="Toggle navigation">☰ Menu</button><nav id="nav"><a href="#home" data-page="home">Home</a><a href="#research" data-page="research">Research</a><a href="#publications" data-page="publications">Publications</a><a href="#activities" data-page="activities">Activities</a><a href="#contact" data-page="contact">Contact</a></nav></div></header>
 <main class="wrap">
@@ -192,7 +195,7 @@ nav a,.social a{font-weight:500}
 <ul class="journal-list"><li>Mathematics of Control, Signals, and Systems</li><li>Automatica</li><li>Control and Cybernetics</li><li>European Journal of Control</li><li>Journal of Mathematical Analysis and Applications</li><li>Advances in Continuous and Discrete Models: Theory and Applications</li><li>Mathematical Control and Related Fields</li><li>ESAIM: Control, Optimisation and Calculus of Variations</li><li>SeMA Journal</li></ul></section>
 
 </section>
-<section class="page" id="contact"><div class="eyebrow">Contact</div><h2>Get in touch</h2><div class="contact"><div><h3>Email</h3><p><a href="mailto:subrata26@tifrbng.res.in">subrata26@tifrbng.res.in</a><br><a href="mailto:subratamajumdar634@gmail.com">subratamajumdar634@gmail.com</a></p><h3>Office</h3><p class="muted">Room 110, TIFR Centre for Applicable Mathematics<br>GKVK Post Office, Bengaluru 560064, Karnataka, India</p><div class="social"><a href="https://scholar.google.com/citations?user=mdjIaqYAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://mathscinet.ams.org/mathscinet/2006/mathscinet/search/author.html?mrauthid=1441343" target="_blank" rel="noopener">MathSciNet ↗</a><a href="https://www.researchgate.net/profile/Subrata-Majumdar-2" target="_blank" rel="noopener">ResearchGate ↗</a><a href="https://sites.google.com/view/subratamajumdar/home" target="_blank" rel="noopener noreferrer">Google Sites ↗</a></div></div><form id="contactForm"><label class="field">Your name<input name="name" required placeholder="Name"></label><label class="field">Your email<input name="email" type="email" required placeholder="you@example.com"></label><label class="field">Subject<input name="subject" required placeholder="Research discussion"></label><label class="field">Message<textarea name="message" required placeholder="Write your message..."></textarea></label><button class="btn" type="submit" id="sendButton">Compose email ↗</button><div class="hint" id="formStatus" aria-live="polite"></div></form></div><div class="contact-traffic"><div class="footer-traffic"><a id="visitor-counter-link" href="https://hits.sh/subratamajumdar634.github.io/smajumdar/" target="_blank" rel="noopener noreferrer" title="View website traffic statistics"><img id="visitor-counter-image" data-counter-src="https://hits.sh/subratamajumdar634.github.io/smajumdar.svg?style=flat-square&amp;label=page%20views&amp;color=ff0000" alt="Live page-view counter" width="125" height="20" decoding="async" referrerpolicy="no-referrer"></a><a href="#analytics" data-page="analytics">Traffic details</a></div></div></section>
+<section class="page" id="contact"><div class="eyebrow">Contact</div><h2>Get in touch</h2><div class="contact"><div><h3>Email</h3><p><a href="mailto:subrata26@tifrbng.res.in">subrata26@tifrbng.res.in</a><br><a href="mailto:subratamajumdar634@gmail.com">subratamajumdar634@gmail.com</a></p><h3>Office</h3><p class="muted">Room 110, TIFR Centre for Applicable Mathematics<br>GKVK Post Office, Bengaluru 560064, Karnataka, India</p><div class="social"><a href="https://scholar.google.com/citations?user=mdjIaqYAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a><a href="https://mathscinet.ams.org/mathscinet/2006/mathscinet/search/author.html?mrauthid=1441343" target="_blank" rel="noopener">MathSciNet ↗</a><a href="https://www.researchgate.net/profile/Subrata-Majumdar-2" target="_blank" rel="noopener">ResearchGate ↗</a><a href="https://sites.google.com/view/subratamajumdar/home" target="_blank" rel="noopener noreferrer">Google Sites ↗</a></div></div><form id="contactForm"><label class="field">Your name<input name="name" required placeholder="Name"></label><label class="field">Your email<input name="email" type="email" required placeholder="you@example.com"></label><label class="field">Subject<input name="subject" required placeholder="Research discussion"></label><label class="field">Message<textarea name="message" required placeholder="Write your message..."></textarea></label><button class="btn" type="submit" id="sendButton">Compose email ↗</button><div class="hint" id="formStatus" aria-live="polite"></div></form></div><div class="contact-traffic"><div class="footer-traffic"><a id="visitor-counter-link" href="https://hits.sh/subratamajumdar634.github.io/smajumdar/" target="_blank" rel="noopener noreferrer" title="View website traffic statistics"><img id="visitor-counter-image" data-counter-src="https://hits.sh/subratamajumdar634.github.io/smajumdar.svg?style=flat-square&amp;label=page%20views&amp;color=ff0000" alt="Live page-view counter" width="125" height="20" decoding="async" referrerpolicy="no-referrer"></a><span id="owner-traffic-total" role="status" aria-live="polite" hidden></span><a href="#analytics" data-page="analytics">Traffic details</a></div></div></section>
 <section class="page" id="analytics"><div class="eyebrow">Site analytics</div><h2>Website traffic</h2><p class="intro">The live page-view counter is displayed at the bottom of the Contact page. It begins tracking page loads when the counter is activated and does not include earlier visits.</p><div class="card"><h3>Live traffic statistics</h3><p>View the total page-view count and the available traffic statistics using the independent, privacy-friendly Hits counter.</p><a class="btn" href="https://hits.sh/subratamajumdar634.github.io/smajumdar/" target="_blank" rel="noopener noreferrer">View live statistics ↗</a></div><div class="hint">This counter measures page loads, not necessarily unique people. Reloads and automated requests may affect the number. No cookies or personal profiles are used by the badge service.</div></section>
 </main><footer><div class="wrap foot"><div>© <span id="year"></span> Subrata Majumdar · TIFR CAM</div><div>Academic website · Mathematics</div></div></footer>
 <script src="config.js"></script><script>
@@ -222,6 +225,25 @@ nav a,.social a{font-weight:500}
   if(isOwner){
     counterLink.hidden=true;
     counterLink.style.display='none';
+    const ownerTotal=document.getElementById('owner-traffic-total');
+    if(ownerTotal){
+      ownerTotal.hidden=false;
+      ownerTotal.textContent='Page views: loading…';
+      // This JSON is updated hourly using Hits.sh's read-only statistics API.
+      // Never load the regular Hits.sh SVG in owner mode: it records a hit.
+      fetch('traffic-count.json',{cache:'no-store'})
+        .then(response=>{if(!response.ok)throw Error('Snapshot not ready');return response.json();})
+        .then(data=>{
+          if(!Number.isSafeInteger(data.total)||data.total<0)throw Error('Invalid snapshot');
+          const updated=data.updated_at ? new Date(data.updated_at).toLocaleString() : 'recently';
+          ownerTotal.textContent='Page views: '+data.total.toLocaleString();
+          ownerTotal.title='Read-only cached total · Updated '+updated;
+        })
+        .catch(()=>{
+          ownerTotal.textContent='Page views: see statistics';
+          ownerTotal.title='Read-only cached total not available yet; use Traffic details';
+        });
+    }
   }else{
     counterImage.src=counterImage.dataset.counterSrc;
   }
